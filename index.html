@@ -3,53 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple food</title>
+    <title>Simple food – margaret</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="site-header">
-            <h1>Simple food</h1>
-            <p class="author">by [Your Name]</p>
-        </header>
-        <nav class="site-nav">
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <main class="content">
-            <h2 class="entry-title">Featured Recipes</h2>
-            <p>
-                Welcome to Simple food. Delicious, simple to prepare recipes that celebrate fresh seasonal ingredients,
-                and the joy of cooking and eating.
-            </p>
-            <p>
-                This month I’m featuring recipes that highlight fruit as a main ingredient. With natural sweetness and
-                beautiful flavours, whatever fruit is in season should be eaten fresh, but also used sensitively to
-                create both sweet and savoury dishes. Here’s a sample of my favourites. Recipe links below.
-            </p>
-            <ul>
-                <li>Banana bread with peaches, blueberries and thick yoghurt</li>
-                <li>Tarte tatin with rosemary</li>
-                <li>Strawberry and fig pastries</li>
-                <li>Ricotta and raspberry tarts</li>
-                <li>Blueberry and apple crumble</li>
-                <li>Plum tart</li>
-                <li>Baked rhubarb with vanilla meringue</li>
-                <li>Apricot crostata</li>
-            </ul>
-            <h3>Share your recipes!</h3>
-            <p>
-                I’d love to hear if you have tried any of the recipes. Why not share a photo on Facebook or Instagram
-                with the <strong>#simplefood</strong> and <strong>#cookingathome</strong> tags.
-            </p>
-        </main>
-    </div>
+    <main>
+        <div class="wrapper">
+            <header class="site-header">
+                <h1>Simple food</h1>
+                <div class="author">Home</div>
+                <nav class="site-nav">
+                    <ul class="nav-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/recipes/">Recipes</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content">
+                <p>Welcome to Simple food. Delicious, simple to prepare recipes that celebrate fresh seasonal
+                    ingredients, and the joy of cooking and eating.</p>
+                <p>This month I’m featuring recipes that highlight fruit as a main ingredient. With natural sweetness
+                    and beautiful flavours, whatever fruit is in season should be eaten fresh, but also used sensitively
+                    to create both sweet and savoury dishes. Here’s a sample of my favourites. Recipe links below.</p>
+
+                <div class="banana-bread" width="100px"><img id="banana-bread" src="images/banana-bread.webp"
+                        alt="banana-bread" width="426">
+                </div>
+
+                <div class="tarte-tatin"><img id="tarte-tatin" src="images/tarte-tatin.webp" alt="tarte-tatin"
+                        width="126px"></div>
+                <div class="strawberry-and-fig"><img id="strawberry-and-fig" src="images/strawberry-and-fig.webp"
+                        alt="strawberry-and-fig" width="226px"></div>
+
+                <br>
+                <div class="list">
+                    <ul>
+
+                        <li>Banana bread with peaches, blueberries and thick yoghurt</li>
+                        <li>Tarte tatin with rosemary</li>
+                        <li>Strawberry and fig pastries</li>
+                        <li>Ricotta and raspberry tarts</li>
+                        <li>Blueberry and apple crumble</li>
+                        <li>Plum tart</li>
+                        <li>Baked rhubarb with vanilla meringue</li>
+                        <li>Apricot crostata</li>
+                    </ul>
+                </div>
+                <p>I’d love to hear if you have tried any of the recipes. Why not share a photo on Facebook or Instagram
+                    with the <strong>#simplefood</strong> and <strong>#cookingathome</strong> tags.</p>
+                <h3>Share:</h3>
+                <div class="share-loading">Loading…</div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
