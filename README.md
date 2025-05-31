@@ -1,5 +1,4 @@
-
-#  SimpleFood.blog 🍲
+# SimpleFood.blog 🍲
 
 A simple food blog website built as part of the **MERN Stack Full-Stack Development Course**. This project is a work in progress. Currently, only the **Home Page** is implemented.
 
@@ -15,13 +14,10 @@ A simple food blog website built as part of the **MERN Stack Full-Stack Developm
   - HTML5
   - CSS3
 
+## Screenshot
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![App Screenshot](images/Screenshot.png)
 
 ## Author
 
 - **23BEC0192**
-
